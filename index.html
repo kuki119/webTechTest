@@ -12,6 +12,17 @@
         html{
             height:100%
         }
+        @keyframes changeColors{
+            from {background:red;}
+            to {background:orange;}
+        }
+        @keyframes changeOpacity{
+            from {opacity : 0;}
+            to {opacity: 100;}
+        }
+        h1,p{
+            animation: changeOpacity 2s infinite;
+        }
     </style>
 </head>
 <body>
