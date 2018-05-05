@@ -1,0 +1,49 @@
+page{
+    font-size: 100px;
+    position: absolute;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+#sp{
+    background: lightgreen;
+    animation: season_sp 5s infinite
+}
+#su{
+    background: lightcoral;
+    animation: season_su 5s infinite
+}
+#au{
+    animation: season_au 5s infinite
+
+}
+#wi{
+    background: black;
+    color:white;
+    animation: season_wi 5s infinite
+}
+@keyframes season_sp{
+    0%{opacity:0}
+    25%{opacity:100}
+    100%{opacity:0}
+}
+@keyframes season_su{
+    0%{opacity:0;}
+    25%{opacity:0}
+    50%{opacity:100}
+    100%{opacity:0}
+}
+@keyframes season_au{
+    0%{opacity:0}
+    50%{opacity:0}
+    75%{opacity:100}
+    100%{opacity:0}
+}
+@keyframes season_wi{
+    0%{opacity:0}
+    75%{opacity:0}
+    100%{opacity:100}
+}

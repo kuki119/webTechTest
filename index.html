@@ -17,19 +17,22 @@
             to {background:orange;}
         }
         @keyframes changeOpacity{
-            from {opacity : 0;}
-            to {opacity: 100;}
+            0% {opacity : 0;}
+            50% {opacity: 100;}
+            100% {opacity: 0;}
         }
-        h1,p{
-            animation: changeOpacity 2s infinite;
+        p{
+            font-size: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: left;
+            animation: changeOpacity 3s infinite;
         }
     </style>
 </head>
 <body>
 <h1> Test this is head 1</h1>
 <p> this is paragraphs 1</p>
-<p> this is paragraphs 2</p>
-<p> this is paragraphs 3</p>
 测试网页！！
 hahah
 what should i do now??
