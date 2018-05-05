@@ -1,3 +1,6 @@
+body{
+    background-size: 100% 100%;
+}
 page{
     font-size: 100px;
     position: absolute;
@@ -6,25 +9,24 @@ page{
     padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 10%;
-
 }
 #sp{
     background: lightgreen;
-    animation: season_sp 5s infinite
+    animation: season_sp 10s infinite
 }
 #su{
-    background: lightcoral;
-    animation: season_su 5s infinite
+    background-image: url('../kakaxi.png');
+    animation: season_su 10s infinite
 }
 #au{
     background: lightgoldenrodyellow;
-    animation: season_au 5s infinite
+    animation: season_au 10s infinite
 
 }
 #wi{
     background: black;
     color:white;
-    animation: season_wi 5s infinite
+    animation: season_wi 10s infinite
 }
 @keyframes season_sp{
     0%{opacity:0}
